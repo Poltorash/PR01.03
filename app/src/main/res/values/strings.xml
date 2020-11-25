@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">PR01.03</string>
+    <string name="app_name">Стань одной из нас</string>
+    <string name="nameHint">Имя</string>
+    <string name="stateHint">Статус</string>
+    <string name="save">Сохранить</string>
+    <string name="ageHint">Возраст</string>
+    <string name="loginHint">Логин</string>
+    <string name="passwordHint">Пароль</string>
+    <string name="signIn">Вход</string>
+    <string name="goSignIn">Войти</string>
+    <string name="NullParametersMessage">Не все поля заполнены!</string>
+    <string name="goSignUp">Зарегистрироваться</string>
+    <string name="UserExitMessage">Пользователь существует</string>
+    <string name="CantSignInMessage" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile_maps">Map</string>
 </resources>

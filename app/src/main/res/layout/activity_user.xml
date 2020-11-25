@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+    <Button
+        android:onClick="Back"
+        android:background="@drawable/ic_keyboard_backspace_black_24"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:ignore="OnClick" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/NameTextView"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="@string/nameHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/AgeTextView"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="@string/ageHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <FrameLayout
+            android:background="@drawable/back_smoke_round"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/StateTextView"
+                android:background="@android:color/transparent"
+                android:layout_margin="15dp"
+                android:inputType="textMultiLine"
+                android:hint="@string/stateHint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </FrameLayout>
+    </LinearLayout>
+    <Button
+        android:background="@drawable/back_round_smoke_bot"
+        android:text="@string/save"
+        android:onClick="Save"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</FrameLayout>
