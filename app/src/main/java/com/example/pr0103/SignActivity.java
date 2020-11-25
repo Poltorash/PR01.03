@@ -88,6 +88,8 @@ public class SignActivity extends AppCompatActivity {
         NewStateTextView = findViewById(R.id.NewStateTextView);
     }
 
+    public void SignIn(View view){SignIn();}
+
     public void SignIn(){
         if(EditTextNoNullWithAnimation(PasswordTextView) && EditTextNoNullWithAnimation(LoginTextView)) {
             FirebaseDatabase database = FirebaseDatabase.getInstance();

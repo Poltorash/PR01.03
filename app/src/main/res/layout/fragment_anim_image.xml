@@ -8,7 +8,7 @@
     <ImageView
         android:id="@+id/imageForLoaded"
         android:layout_gravity="center"
-        android:src="@drawable/winxL"
+        android:src="@drawable/winxlogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
